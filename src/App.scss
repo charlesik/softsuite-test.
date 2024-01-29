@@ -1,0 +1,51 @@
+body
+.App{
+  // height: 100vh;
+  border: 1px solid red;
+}
+.top{
+  display: flex;
+
+}
+.sidebar{
+  width: 302px;
+  height: 1036px;
+  background-color: white;
+  
+}
+.view{
+  width: 1000px;
+}
+.topbar{
+  height: 97px;
+  border: 1px solid red ;
+  width: 1000px;
+  background-color: white;
+
+}
+.elements{
+  // height: 85%;
+  // border: 1px solid blue;
+}
+.directory{
+  width: 400px;
+  height: 24px;
+  margin-left: 98px;
+}
+.elementswindow{
+  width: 800px;
+  height: 612px;
+  background-color: white;
+  border: 1px solid red;
+  margin: auto;
+}
+.footer{
+  height: 58px;
+  border: 1px solid red;
+  background-color: #2D416F;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
