@@ -1,7 +1,6 @@
 body
 .App{
   // height: 100vh;
-  border: 1px solid red;
 }
 .top{
   display: flex;
@@ -36,15 +35,13 @@ body
   margin-left: 98px;
 }
 .elementswindow{
-  width: 800px;
+  width: 850px;
   height: 612px;
   background-color: white;
-  border: 1px solid red;
   margin: auto;
 }
 .footer{
   height: 58px;
-  border: 1px solid red;
   background-color: #2D416F;
   display: flex;
   justify-content: space-between;
@@ -158,4 +155,33 @@ body
 .userdetails{
   margin-left: 70px;
   background-color: transparent;
+}
+.elementstab{
+  background-color: #F4F6F8;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 90%;
+  margin: auto;
+}
+.elementsearch{
+  display: flex;
+  
+}
+.filter{
+  margin-top: 8px;
+}
+.createelementbtn{
+  background-color: #4BAA79;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+}
+.noelements{
+  width: 273px;
+  height: 194px;
+  margin: auto;
+  margin-top: 150px;
 }
