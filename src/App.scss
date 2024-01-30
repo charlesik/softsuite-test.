@@ -22,6 +22,9 @@ body
   border: 1px solid red ;
   width: 1000px;
   background-color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
 
 }
 .elements{
@@ -122,4 +125,30 @@ body
 .menuitems2{
   border-top: 1px solid #F3FFF1;
   margin-top: 30px;
+}
+.org{
+  margin-top: 0;
+  background-color: #F3FFF1;
+  width: 244px;
+  height: 57px;
+}
+.searchcomp{
+  width: 354px;
+  height: 57px;
+  margin-left: 20px;
+  // border: 1px solid red;
+}
+.search{
+  height: 57px;
+  border: 1px solid #F3FFF1;
+  width: 70%;
+  
+}
+.searchbtn{
+  height: 57px;
+  width: 20%;
+  background-color: #4BAA79;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius:10px ;
 }
