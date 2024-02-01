@@ -12,9 +12,7 @@ const ElementsWindow: React.FC=()=> {
             <h1>Elements</h1>
             <ElementsTab/>
             <ElementList/>
-            {/* <div className="noelements">
-                <img src="no-elements.png" alt="" />
-            </div> */}
+            
         </div>
     );
 }

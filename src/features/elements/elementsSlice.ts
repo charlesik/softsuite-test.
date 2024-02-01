@@ -1,8 +1,7 @@
-// features/elements/elementsSlice.ts
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-// Define a type for the schema
+//type for the schema
 interface Element {
     name: string;
     description: string;
@@ -13,6 +12,7 @@ interface Element {
     categoryId: number;
     categoryValueId: number;
     reportingName: string;
+    modifiedBy: string;
     processingType: string;
     status: string;
     prorate: string;
@@ -22,7 +22,7 @@ interface Element {
     payFrequency: string;
 }
 
-// Define the initial state
+//the initial state
 interface ElementsState {
     entities: Element[];
     loading: 'idle' | 'pending' | 'succeeded' | 'failed';
@@ -35,7 +35,7 @@ const initialState: ElementsState = {
     error: null,
 };
 
-// Define async thunks for GET and POST requests
+//async thunks for GET and POST requests
 export const fetchElements = createAsyncThunk('elements/fetchElements', async () => {
     const response = await axios.get('https://650af6bedfd73d1fab094cf7.mockapi.io/elements');
     console.log(response.data.data.content)
@@ -47,7 +47,7 @@ export const postElement = createAsyncThunk('elements/postElement', async (eleme
     return response.data as Element;
 });
 
-// Define the slice
+//the slice
 const elementsSlice = createSlice({
     name: 'elements',
     initialState,

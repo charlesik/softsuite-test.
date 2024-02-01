@@ -185,3 +185,39 @@ body
   margin: auto;
   margin-top: 150px;
 }
+table{
+  width: 93%;
+  margin: auto;
+  font-size: 14px;
+  text-align: left;
+  padding: 18px;
+  color: #2D416F;
+  border-collapse:collapse ;
+  margin-top: 15px;
+}
+thead{
+  background-color: #2D416F;
+  color: white;
+  border: 1px solid green;
+  height: 50px;
+  
+}
+tr{
+  border-bottom: 1px solid #CDE1E3;
+  height: 50px;
+}
+.pagination{
+  width: 93%;
+  margin: auto;
+  display: flex;
+  justify-content: end;
+}
+.pagbtn{
+  background-color: #E2E2E2;
+  width: 41px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 12px, 16px, 12px, 16px;
+  border: none;
+  margin: 3px;
+}
