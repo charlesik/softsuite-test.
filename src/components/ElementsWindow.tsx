@@ -9,7 +9,7 @@ const ElementsWindow: React.FC=()=> {
 
     return (
         <div className="elementswindow">
-            <h1>Elements</h1>
+            <h1 className="elemhead">Elements</h1>
             <ElementsTab/>
             <ElementList/>
             

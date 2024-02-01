@@ -4,7 +4,7 @@ import ElementsWindow from "./ElementsWindow";
 function Elements() {
     return (
         <div className="elements">
-            <Directory/>
+            {/* <Directory/> */}
             <ElementsWindow/>
         </div>
     );
